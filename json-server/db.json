@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$NO.ijqmDDUbN6muphXewI.8.ICLwgSAD0IzSXXfw3t0NLcQVDO8QG",
+      "username": "Oliver",
+      "id": "sr99BII"
+    },
+    {
+      "email": "admin@mini-crm.com",
+      "password": "$2a$10$NO.ijqmDDUbN6muphXewI.8.ICLwgSAD0IzSXXfw3t0NLcQVDO8QG",
+      "username": "Admin",
+      "id": "admin01"
+    },
+    {
+      "email": "user@test.com",
+      "password": "$2a$10$NO.ijqmDDUbN6muphXewI.8.ICLwgSAD0IzSXXfw3t0NLcQVDO8QG",
+      "username": "TestUser",
+      "id": "test123"
+    }
+  ],
+  "orders": [
+    {
+      "id": "cTEQXIX",
+      "description": "écran tv",
+      "quantity": 1,
+      "price": 500,
+      "status": "pending",
+      "customer": "2ai concept ltd"
+    },
+    {
+      "id": "aBc123D",
+      "description": "ordinateur portable",
+      "quantity": 2,
+      "price": 1200,
+      "status": "complete",
+      "customer": "Tech Solutions"
+    },
+    {
+      "id": "xYz789E",
+      "description": "souris gaming",
+      "quantity": 5,
+      "price": 80,
+      "status": "pending",
+      "customer": "Gaming Store"
+    },
+    {
+      "id": "mNp456F",
+      "description": "clavier mécanique",
+      "quantity": 3,
+      "price": 150,
+      "status": "complete",
+      "customer": "Office Pro"
+    },
+    {
+      "id": "qRs321G",
+      "description": "webcam HD",
+      "quantity": 1,
+      "price": 200,
+      "status": "pending",
+      "customer": "Video Conf Ltd"
+    }
+  ]
+}
