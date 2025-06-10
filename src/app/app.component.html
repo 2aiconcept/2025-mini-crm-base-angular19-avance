@@ -1,22 +1,14 @@
 <app-ui-layout>
-  <app-header header [isLoggedIn]="isLoggedIn" (logout)="logOut()"></app-header>
+  <app-header header></app-header>
   <nav nav class="mt-2 p-2">
     <ul class="nav flex-column nav-pills">
-      @if (!isLoggedIn) {
-      <li class="nav-item mb-2">
-        <a class="nav-link text-white" aria-current="page" routerLink="/signin" routerLinkActive="active">Sign
-          in</a>
-      </li>
-      <li class="nav-item mb-2">
-        <a class="nav-link text-white" aria-current="page" routerLink="/signup" routerLinkActive="active">Sign up</a>
-      </li>
-      } @else {
+      @if (isLoggedIn()) {
       <li class="nav-item mb-2">
         <a class="nav-link text-white" aria-current="page" routerLink="/dashboard"
           routerLinkActive="active">Dashboard</a>
       </li>
       <li class="nav-item mb-2">
-        <a class="nav-link text-white" aria-current="page" routerLink="/signup" routerLinkActive="active">Orders</a>
+        <a class="nav-link text-white" aria-current="page" routerLink="/orders" routerLinkActive="active">Orders</a>
       </li>
       }
     </ul>

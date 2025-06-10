@@ -1,4 +1,5 @@
-import { Component, input, output } from '@angular/core';
+import { Component, inject, input, output } from '@angular/core';
+import { AuthService } from '@auth/services';
 import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -8,9 +9,9 @@ import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
   styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
-  isLoggedIn = input<boolean>();
-  logout = output<void>();
-  onLogout() {
-    this.logout.emit();
+  authService = inject(AuthService);
+  isLoggedIn = this.authService.isLoggedIn;
+  logOut() {
+    this.authService.logOut();
   }
 }

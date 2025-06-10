@@ -1,2 +1,4 @@
-export interface NavLinkInterface {
+export interface INavLink {
+  route: string;
+  label: string;
 }

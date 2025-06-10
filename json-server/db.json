@@ -17,6 +17,17 @@
       "password": "$2a$10$NO.ijqmDDUbN6muphXewI.8.ICLwgSAD0IzSXXfw3t0NLcQVDO8QG",
       "username": "TestUser",
       "id": "test123"
+    },
+    {
+      "email": "test@mini-crm.com",
+      "password": "$2a$10$8xh7hPZ5Bt0pXGCxMjLdeeVsi8mIlX265yXMX/f7NY5gqMuZZ2MLC",
+      "id": "QS2ZGb9"
+    },
+    {
+      "email": "test2@mini-crm.com",
+      "password": "$2a$10$E7c12wv12r7Pa0r6ljEGc.uMF1PAKvhXzl03STX99T4hmS.L0q9hW",
+      "username": "Admin",
+      "id": "kq3n4Ly"
     }
   ],
   "orders": [
