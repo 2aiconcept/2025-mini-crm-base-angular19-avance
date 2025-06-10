@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-ui-layout',
-  imports: [],
+  imports: [RouterOutlet],
   templateUrl: './ui-layout.component.html',
-  styleUrl: './ui-layout.component.scss'
+  styleUrl: './ui-layout.component.scss',
 })
-export class UiLayoutComponent {
-
-}
+export class UiLayoutComponent {}
