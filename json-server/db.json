@@ -32,14 +32,6 @@
   ],
   "orders": [
     {
-      "id": "cTEQXIX",
-      "description": "écran tv",
-      "quantity": 1,
-      "price": 500,
-      "status": "pending",
-      "customer": "2ai concept ltd"
-    },
-    {
       "id": "aBc123D",
       "description": "ordinateur portable",
       "quantity": 2,
@@ -70,6 +62,22 @@
       "price": 200,
       "status": "pending",
       "customer": "Video Conf Ltd"
+    },
+    {
+      "description": "écran",
+      "customer": "Atos",
+      "quantity": 1,
+      "price": 400,
+      "status": "Pending",
+      "id": "LMbpXR0"
+    },
+    {
+      "description": "écran",
+      "customer": "Atos",
+      "quantity": 1,
+      "price": 400,
+      "status": "Completed",
+      "id": "hrqRAKJ"
     }
   ]
 }

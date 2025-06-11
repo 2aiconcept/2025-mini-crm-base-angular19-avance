@@ -1,1 +1,5 @@
-<p>order-add-page works!</p>
+<div class="container-fluid">
+  <h4>Editer une commande</h4>
+  <hr>
+  <app-order-form [init]="item" (submited)="action($event)"></app-order-form>
+</div>
